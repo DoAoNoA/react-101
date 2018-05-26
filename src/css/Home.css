@@ -1,0 +1,6 @@
+.ProfileContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
