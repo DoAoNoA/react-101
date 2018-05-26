@@ -6,7 +6,7 @@ class Profile extends Component{
         return (
           <div>
               <img src={profilePicture} alt="logo"/>
-              <p>Full Stack in traninig</p>
+              <h3>Full Stack developer in trainnig</h3>
           </div>
         )
     }
