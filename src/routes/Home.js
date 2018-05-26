@@ -1,8 +1,9 @@
 import React from 'react';
+import Profile from '../components/Profile';
 
 const Home = () =>
     <div>
-        Home
+        <Profile/>
     </div>
 
 export default Home;
