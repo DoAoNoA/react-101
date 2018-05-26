@@ -10,11 +10,14 @@ class App extends Component {
     return (
       <Router>
         <Fragment>
-          <Link to="/">Go to Home</Link>
-          
-          <Link to="/about">Go to About</Link>
-          <Route exact path="/" component={ Home }></Route>
-          <Route path="/about" component={ About }></Route>
+          <main>  
+            <Route exact path="/" component={ Home }></Route>
+            <Route path="/about" component={ About }></Route>
+          </main>
+          <nav>
+            <Link to="/"><span>Go to Home</span></Link>
+            <Link to="/about"><span>Go to About</span></Link>
+          </nav>
         </Fragment>
       </Router>
     );
