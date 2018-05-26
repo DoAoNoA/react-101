@@ -2,7 +2,6 @@ import React, { Component , Fragment} from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './routes/Home';
 import About from './routes/About';
-//import logo from './logo.svg';
 import './css/App.css';
 
 class App extends Component {
