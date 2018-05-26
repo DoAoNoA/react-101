@@ -2,4 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Dosis', sans-serif;
+  background-color: rgb(162,175,29);
+  color: white;
 }
